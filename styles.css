@@ -424,6 +424,13 @@ p { color: var(--text-body); }
   max-width: 480px;
 }
 
+.hero-director {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-top: var(--space-md);
+  margin-bottom: 0;
+}
+
 .hero-trust {
   display: flex;
   flex-wrap: wrap;
