@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO: Update [PRIMARY SERVICE AREA] before launch -->
+  <title>Pricing | Speedy Klean Service — Couch, Carpet &amp; Apartment Cleaning</title>
+  <meta name="description"
+    content="Clear, transparent pricing for couch cleaning, carpet cleaning, L-shape couch cleaning, and apartment deep cleaning. Get a quote on WhatsApp from Speedy Klean Service." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Pricing | Speedy Klean Service" />
+  <meta property="og:description" content="Transparent cleaning service pricing. No hidden costs." />
+  <meta property="og:type" content="website" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════════════════
+       NAVIGATION (shared)
+  ══════════════════════════════════════════════════════════ -->
+  <header class="site-nav">
+    <div class="container nav-inner">
+
+      <a href="index.html" class="nav-logo">
+        Speedy <span>Klean</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html#services">Services</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="index.html#gallery">Gallery</a>
+        <a href="index.html#reviews">Reviews</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="#" class="btn btn-wa" data-wa="general" aria-label="Book on WhatsApp">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+            <path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.555 4.126 1.526 5.862L0 24l6.335-1.513A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.806 9.806 0 01-5.001-1.37l-.359-.213-3.72.888.916-3.618-.234-.372A9.788 9.788 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+          </svg>
+          Book Now
+        </a>
+      </nav>
+
+      <button
+        class="nav-toggle"
+        id="nav-toggle"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="nav-mobile"
+      >
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="nav-mobile" id="nav-mobile" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="index.html#services">Services</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="index.html#gallery">Gallery</a>
+    <a href="index.html#reviews">Reviews</a>
+    <a href="index.html#contact">Contact</a>
+    <a href="#" class="btn btn-wa" data-wa="general">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+        <path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.555 4.126 1.526 5.862L0 24l6.335-1.513A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.806 9.806 0 01-5.001-1.37l-.359-.213-3.72.888.916-3.618-.234-.372A9.788 9.788 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+      </svg>
+      Book on WhatsApp
+    </a>
+  </nav>
+
+  <main>
+
+    <!-- ══════════════════════════════════════════════════════
+         PAGE HERO
+    ══════════════════════════════════════════════════════ -->
+    <section class="pricing-page-hero">
+      <div class="container">
+        <span class="section-label">Transparent Rates</span>
+        <h1>Our Pricing</h1>
+        <p>
+          Clear pricing, no hidden fees. All rates listed below are current starting prices.
+          Final price depends on the size and condition of the items.
+          Not sure? Message us on WhatsApp for a free quote.
+        </p>
+        <div class="btn-group" style="justify-content:center">
+          <a class="btn btn-wa" data-wa="pricing" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+              <path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.555 4.126 1.526 5.862L0 24l6.335-1.513A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.806 9.806 0 01-5.001-1.37l-.359-.213-3.72.888.916-3.618-.234-.372A9.788 9.788 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+            </svg>
+            Get a Free Quote
+          </a>
+          <a class="btn btn-outline" href="index.html">Back to Home</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════
+         PRICING CONTENT
+         PLACEHOLDER: Replace all prices with confirmed rates
+    ══════════════════════════════════════════════════════ -->
+    <section class="section">
+      <div class="container">
+
+        <!-- ─── Couch Cleaning ──────────────────────────────── -->
+        <div class="pricing-group" id="couch-cleaning">
+          <div class="pricing-group-header">
+            <div class="pricing-group-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 9V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v2"/><path d="M2 11a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-4z"/><path d="M6 17v2M18 17v2"/></svg>
+            </div>
+            <h2>Couch Cleaning</h2>
+          </div>
+
+          <!-- PLACEHOLDER PRICES: Confirm with client before launch -->
+          <table class="pricing-table" aria-label="Couch cleaning prices">
+            <thead>
+              <tr>
+                <th>Item</th>
+                <th>Standard Price</th>
+                <th>Current Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2-Seater Couch</td>
+                <td class="price-col"><span class="original-price">R300</span></td>
+                <td class="promo-col">R250 <span class="promo-badge">PROMO</span></td>
+              </tr>
+              <tr>
+                <td>3-Seater Couch</td>
+                <td class="price-col"><span class="original-price">R400</span></td>
+                <td class="promo-col">R350 <span class="promo-badge">PROMO</span></td>
+              </tr>
+              <tr>
+                <td>4-Seater Couch</td>
+                <td class="price-col"><span class="original-price">R500</span></td>
+                <td class="promo-col">R450 <span class="promo-badge">PROMO</span></td>
+              </tr>
+              <tr>
+                <td>5-Seater Couch</td>
+                <td class="price-col"><span class="original-price">R600</span></td>
+                <td class="promo-col">R550 <span class="promo-badge">PROMO</span></td>
+              </tr>
+              <tr>
+                <td>Single Couch / Chair</td>
+                <td class="price-col">R150</td>
+                <td class="price-col">R150</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="pricing-cta-row">
+            <a class="btn btn-wa-outline" data-wa="couch" href="#">Book Couch Cleaning</a>
+          </div>
+        </div>
+
+        <!-- ─── L-Shape Couch Cleaning ───────────────────────── -->
+        <div class="pricing-group" id="l-shape-cleaning">
+          <div class="pricing-group-header">
+            <div class="pricing-group-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9h20M2 9a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-5"/><path d="M9 18H4a2 2 0 0 1-2-2v-7"/><path d="M6 18v2M18 18v2"/></svg>
+            </div>
+            <h2>L-Shape Couch Cleaning</h2>
+          </div>
+
+          <!-- PLACEHOLDER PRICES -->
+          <table class="pricing-table" aria-label="L-shape couch cleaning prices">
+            <thead>
+              <tr>
+                <th>Item</th>
+                <th>Standard Price</th>
+                <th>Current Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Small L-Shape (4–5 seater)</td>
+                <td class="price-col"><span class="original-price">R600</span></td>
+                <td class="promo-col">R500 <span class="promo-badge">PROMO</span></td>
+              </tr>
+              <tr>
+                <td>Medium L-Shape (6–7 seater)</td>
+                <td class="price-col"><span class="original-price">R750</span></td>
+                <td class="promo-col">R620 <span class="promo-badge">PROMO</span></td>
+              </tr>
+              <tr>
+                <td>Large L-Shape (8+ seater)</td>
+                <td class="price-col"><span class="original-price">R900</span></td>
+                <td class="promo-col">R750 <span class="promo-badge">PROMO</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="pricing-cta-row">
+            <a class="btn btn-wa-outline" data-wa="couch" href="#">Book L-Shape Cleaning</a>
+          </div>
+        </div>
+
+        <!-- ─── Carpet Cleaning ──────────────────────────────── -->
+        <div class="pricing-group" id="carpet-cleaning">
+          <div class="pricing-group-header">
+            <div class="pricing-group-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M2 10h20M2 14h20"/></svg>
+            </div>
+            <h2>Carpet Cleaning</h2>
+          </div>
+
+          <!-- PLACEHOLDER PRICES -->
+          <table class="pricing-table" aria-label="Carpet cleaning prices">
+            <thead>
+              <tr>
+                <th>Item</th>
+                <th>Standard Price</th>
+                <th>Current Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Lounge / Sitting Room</td>
+                <td class="price-col"><span class="original-price">R320</span></td>
+                <td class="promo-col">R280 <span class="promo-badge">PROMO</span></td>
+              </tr>
+              <tr>
+                <td>Bedroom (per room)</td>
+                <td class="price-col"><span class="original-price">R220</span></td>
+                <td class="promo-col">R180 <span class="promo-badge">PROMO</span></td>
+              </tr>
+              <tr>
+                <td>Passage / Hallway</td>
+                <td class="price-col">R120</td>
+                <td class="price-col">R100</td>
+              </tr>
+              <tr>
+                <td>Stairs (per flight)</td>
+                <td class="price-col">R200</td>
+                <td class="price-col">R180</td>
+              </tr>
+              <tr>
+                <td>Area Rug (small)</td>
+                <td class="price-col">R150</td>
+                <td class="price-col">R130</td>
+              </tr>
+              <tr>
+                <td>Area Rug (large)</td>
+                <td class="price-col">R280</td>
+                <td class="price-col">R250</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="pricing-cta-row">
+            <a class="btn btn-wa-outline" data-wa="carpet" href="#">Book Carpet Cleaning</a>
+          </div>
+        </div>
+
+        <!-- ─── Apartment Cleaning ───────────────────────────── -->
+        <div class="pricing-group" id="apartment-cleaning">
+          <div class="pricing-group-header">
+            <div class="pricing-group-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <h2>Apartment Cleaning</h2>
+          </div>
+
+          <!-- PLACEHOLDER PRICES -->
+          <table class="pricing-table" aria-label="Apartment cleaning prices">
+            <thead>
+              <tr>
+                <th>Item</th>
+                <th>Standard Price</th>
+                <th>Current Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Studio / Bachelor</td>
+                <td class="price-col"><span class="original-price">R500</span></td>
+                <td class="promo-col">R400 <span class="promo-badge">PROMO</span></td>
+              </tr>
+              <tr>
+                <td>1-Bedroom Apartment</td>
+                <td class="price-col"><span class="original-price">R650</span></td>
+                <td class="promo-col">R550 <span class="promo-badge">PROMO</span></td>
+              </tr>
+              <tr>
+                <td>2-Bedroom Apartment</td>
+                <td class="price-col"><span class="original-price">R900</span></td>
+                <td class="promo-col">R750 <span class="promo-badge">PROMO</span></td>
+              </tr>
+              <tr>
+                <td>3-Bedroom Apartment</td>
+                <td class="price-col"><span class="original-price">R1 150</span></td>
+                <td class="promo-col">R950 <span class="promo-badge">PROMO</span></td>
+              </tr>
+              <tr>
+                <td>Move-In / Move-Out Clean (1-bed)</td>
+                <td class="price-col">R800</td>
+                <td class="price-col">R700</td>
+              </tr>
+              <tr>
+                <td>Move-In / Move-Out Clean (2-bed)</td>
+                <td class="price-col">R1 100</td>
+                <td class="price-col">R950</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="pricing-cta-row">
+            <a class="btn btn-wa-outline" data-wa="apartment" href="#">Book Apartment Cleaning</a>
+          </div>
+        </div>
+
+        <!-- ─── Additional Fees / Notes ──────────────────────── -->
+        <div class="pricing-notes" id="additional-notes">
+          <h2>Additional Fees &amp; Important Notes</h2>
+          <ul>
+            <!-- PLACEHOLDER: Confirm all notes and fees with client before launch -->
+            <li>Prices are starting rates. Final price depends on size, condition, and extent of cleaning required.</li>
+            <li>A surcharge may apply for items with heavy staining, mould, or pet damage — you will always be informed before work begins.</li>
+            <li>Call-out fee: <strong>[CALL-OUT FEE PLACEHOLDER]</strong> — confirm with client.</li>
+            <li>Travel surcharge may apply for areas outside <strong>[PRIMARY SERVICE AREA]</strong>.</li>
+            <li>Promotional prices are valid for a limited time and subject to change.</li>
+            <li>All bookings made through WhatsApp. A quote will be confirmed before your booking is locked in.</li>
+            <li>Payment accepted: <strong>[PAYMENT METHODS PLACEHOLDER]</strong> — confirm with client.</li>
+          </ul>
+
+          <div style="margin-top:var(--space-md)">
+            <a class="btn btn-wa" data-wa="pricing" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+                <path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.555 4.126 1.526 5.862L0 24l6.335-1.513A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.806 9.806 0 01-5.001-1.37l-.359-.213-3.72.888.916-3.618-.234-.372A9.788 9.788 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+              </svg>
+              Get a Personalised Quote
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════
+         FINAL CTA
+    ══════════════════════════════════════════════════════ -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>Not Sure What You Need?</h2>
+        <p>Send us a message on WhatsApp and we'll give you a clear, fair quote — no obligation.</p>
+        <div class="btn-group">
+          <a class="btn btn-wa" data-wa="general" href="#" style="background:var(--white);color:var(--purple);border-color:var(--white);">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+              <path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.555 4.126 1.526 5.862L0 24l6.335-1.513A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.806 9.806 0 01-5.001-1.37l-.359-.213-3.72.888.916-3.618-.234-.372A9.788 9.788 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+            </svg>
+            Chat on WhatsApp
+          </a>
+          <a class="btn btn-outline--white" href="index.html">Back to Home</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══════════════════════════════════════════════════════════
+       FOOTER (shared)
+  ══════════════════════════════════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">Speedy <span>Klean</span></a>
+          <p>Professional cleaning services. Easy booking on WhatsApp.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="index.html#services">Couch Cleaning</a></li>
+            <li><a href="index.html#services">Carpet Cleaning</a></li>
+            <li><a href="index.html#services">Apartment Cleaning</a></li>
+            <li><a href="index.html#services">Move-Out Cleaning</a></li>
+            <li><a href="index.html#services">Office Cleaning</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Pricing</h4>
+          <ul>
+            <li><a href="#couch-cleaning">Couch Cleaning</a></li>
+            <li><a href="#l-shape-cleaning">L-Shape Couch</a></li>
+            <li><a href="#carpet-cleaning">Carpet Cleaning</a></li>
+            <li><a href="#apartment-cleaning">Apartment Cleaning</a></li>
+            <li><a href="#additional-notes">Notes &amp; Fees</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li>
+              <a href="#" data-wa="general" class="footer-contact-item">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.555 4.126 1.526 5.862L0 24l6.335-1.513A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.806 9.806 0 01-5.001-1.37l-.359-.213-3.72.888.916-3.618-.234-.372A9.788 9.788 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/></svg>
+                WhatsApp: [NUMBER]
+              </a>
+            </li>
+            <li>
+              <span class="footer-contact-item">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                [PRIMARY SERVICE AREA]
+              </span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Speedy Klean Service. All rights reserved.</p>
+        <p class="placeholder-note">Built by Valo Systems</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky WhatsApp bar (Mobile only) -->
+  <a class="sticky-wa" data-wa="pricing" href="#" aria-label="Get a quote on WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+      <path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.555 4.126 1.526 5.862L0 24l6.335-1.513A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.806 9.806 0 01-5.001-1.37l-.359-.213-3.72.888.916-3.618-.234-.372A9.788 9.788 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+    </svg>
+    Get a Quote on WhatsApp
+  </a>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="app.js"></script>
+</body>
+</html>
