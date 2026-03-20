@@ -6,7 +6,7 @@
 /* ── PLACEHOLDER: Update this number before going live ─────── */
 /* Format: country code + number, no + or spaces               */
 /* South Africa: 27 + 10-digit number (drop the leading 0)     */
-const WA_NUMBER = '27000000000'; // TODO: replace with real WhatsApp number
+const WA_NUMBER = '27848262990'; // Nozipho — 084 826 2990
 
 /* ── WhatsApp message templates ────────────────────────────── */
 const WA_MESSAGES = {
