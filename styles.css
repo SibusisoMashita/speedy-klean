@@ -1,30 +1,30 @@
 /* ============================================================
    Speedy Klean Service — styles.css
-   Design system: warm neutrals + teal/orange accents
+   Design system: purple + pink accents, white/light backgrounds
    Mobile-first approach (min-width breakpoints)
    ============================================================ */
 
 /* ── CSS Custom Properties ─────────────────────────────────── */
 :root {
   /* Brand colours */
-  --purple:        #0f766e;
-  --purple-mid:    #14b8a6;
-  --purple-light:  #ccfbf1;
-  --purple-xlight: #f0fdfa;
-  --pink:          #ea580c;
-  --pink-light:    #ffedd5;
-  --blue:          #155e75;
+  --purple:        #6B21A8;
+  --purple-mid:    #7C3AED;
+  --purple-light:  #EDE9FE;
+  --purple-xlight: #FAF5FF;
+  --pink:          #DB2777;
+  --pink-light:    #FCE7F3;
+  --blue:          #1D4ED8;
 
   /* Neutrals */
   --white:         #FFFFFF;
-  --bg-alt:        #fcfaf5;
-  --light-grey:    #f2efe8;
-  --border:        #e7ded1;
-  --text-dark:     #15231f;
-  --text-body:     #44504b;
+  --bg-alt:        #FAF9FC;
+  --light-grey:    #F3F4F6;
+  --border:        #E9E3F5;
+  --text-dark:     #1A1028;
+  --text-body:     #374151;
   --text-muted:    #6B7280;
-  --shadow:        rgba(15, 118, 110, 0.08);
-  --shadow-md:     rgba(15, 118, 110, 0.16);
+  --shadow:        rgba(107, 33, 168, 0.08);
+  --shadow-md:     rgba(107, 33, 168, 0.14);
 
   /* WhatsApp */
   --wa-green:      #25D366;
@@ -608,8 +608,8 @@ p { color: var(--text-body); }
   margin: var(--space-md) auto 0;
   padding: 1rem 1.1rem;
   border-radius: var(--radius);
-  background: linear-gradient(135deg, rgba(234,88,12,0.12), rgba(20,184,166,0.12));
-  border: 1px solid rgba(234,88,12,0.16);
+  background: linear-gradient(135deg, rgba(219,39,119,0.12), rgba(124,58,237,0.12));
+  border: 1px solid rgba(124,58,237,0.16);
   color: var(--text-dark);
   font-weight: 500;
 }
