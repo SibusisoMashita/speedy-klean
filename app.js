@@ -3,21 +3,22 @@
    Handles: nav toggle, WhatsApp CTAs, smooth scroll
    ============================================================ */
 
-/* ── PLACEHOLDER: Update this number before going live ─────── */
+/* ── Business WhatsApp number ──────────────────────────────── */
 /* Format: country code + number, no + or spaces               */
 /* South Africa: 27 + 10-digit number (drop the leading 0)     */
-const WA_NUMBER = '27848262990'; // Nozipho — 084 826 2990
+const WA_NUMBER = '27848262990'; // 084 826 2990
 
 /* ── WhatsApp message templates ────────────────────────────── */
 const WA_MESSAGES = {
-  general:   'Hi, I would like a quote for your cleaning services.',
+  general:   'Hi, I would like a quote for your cleaning services in Gauteng.',
   couch:     'Hi, I would like a quote for couch cleaning.',
-  carpet:    'Hi, I would like a quote for carpet cleaning.',
-  apartment: 'Hi, I would like a quote for apartment deep cleaning.',
-  moveout:   'Hi, I would like a quote for move-in / move-out cleaning.',
-  office:    'Hi, I would like a quote for home and office cleaning.',
+  carpet:    'Hi, I would like a quote for rug or carpet cleaning.',
+  mattress:  'Hi, I would like a quote for mattress, sleigh bed, or headboard cleaning.',
+  apartment: 'Hi, I would like a quote for apartment cleaning.',
+  house:     'Hi, I would like a quote for house deep cleaning.',
+  maid:      'Hi, I would like more information about your weekly maid services.',
   special:   'Hi, I would like a quote for a special cleaning service.',
-  pricing:   'Hi, I would like more information about your pricing.',
+  pricing:   'Hi, I would like more information about your pricing and Easter special.',
 };
 
 /* ── Build a wa.me URL ──────────────────────────────────────── */
